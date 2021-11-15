@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\qkrdm\\source\\repos\\PracticeASP.NET\\RazorWeb\\RazorWeb\\RazorWeb.csproj": {}
+    "C:\\Users\\qkrdm\\source\\repos\\Asp.Net Project\\RazorWeb\\RazorWeb\\RazorWeb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\qkrdm\\source\\repos\\PracticeASP.NET\\RazorWeb\\RazorWeb\\RazorWeb.csproj": {
+    "C:\\Users\\qkrdm\\source\\repos\\Asp.Net Project\\RazorWeb\\RazorWeb\\RazorWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\qkrdm\\source\\repos\\PracticeASP.NET\\RazorWeb\\RazorWeb\\RazorWeb.csproj",
+        "projectUniqueName": "C:\\Users\\qkrdm\\source\\repos\\Asp.Net Project\\RazorWeb\\RazorWeb\\RazorWeb.csproj",
         "projectName": "RazorWeb",
-        "projectPath": "C:\\Users\\qkrdm\\source\\repos\\PracticeASP.NET\\RazorWeb\\RazorWeb\\RazorWeb.csproj",
+        "projectPath": "C:\\Users\\qkrdm\\source\\repos\\Asp.Net Project\\RazorWeb\\RazorWeb\\RazorWeb.csproj",
         "packagesPath": "C:\\Users\\qkrdm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\qkrdm\\source\\repos\\PracticeASP.NET\\RazorWeb\\RazorWeb\\obj\\",
+        "outputPath": "C:\\Users\\qkrdm\\source\\repos\\Asp.Net Project\\RazorWeb\\RazorWeb\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\qkrdm\\AppData\\Roaming\\NuGet\\NuGet.Config",

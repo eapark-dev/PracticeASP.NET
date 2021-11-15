@@ -19,11 +19,12 @@ namespace RazorPagesMovie.Pages.Movies
             _context = context;
         }
 
-        public IActionResult OnGet()
+        public IActionResult OnGet() //페이지에서 필요한 상태를 초기화 합니다.
         {
             return Page();
         }
-
+        //모델 바인딩을 옵트인함
+        //닷넷 코어 런타임이 게시된 값을 Movie 모델을 바인딩함.
         [BindProperty]
         public Movie Movie { get; set; }
 

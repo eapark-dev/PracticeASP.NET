@@ -153,3 +153,7 @@ C:\Users\qkrdm\source\repos\Asp.Net Project\RazorPagesMovie\RazorPagesMovie\obj\
 C:\Users\qkrdm\source\repos\Asp.Net Project\RazorPagesMovie\RazorPagesMovie\obj\Debug\netcoreapp3.1\Razor\Pages\Movies\Details.cshtml.g.cs
 C:\Users\qkrdm\source\repos\Asp.Net Project\RazorPagesMovie\RazorPagesMovie\obj\Debug\netcoreapp3.1\Razor\Pages\Movies\Edit.cshtml.g.cs
 C:\Users\qkrdm\source\repos\Asp.Net Project\RazorPagesMovie\RazorPagesMovie\obj\Debug\netcoreapp3.1\Razor\Pages\Movies\Index.cshtml.g.cs
+C:\Users\qkrdm\source\repos\Asp.Net Project\RazorPagesMovie\RazorPagesMovie\bin\Debug\netcoreapp3.1\Castle.Core.dll
+C:\Users\qkrdm\source\repos\Asp.Net Project\RazorPagesMovie\RazorPagesMovie\bin\Debug\netcoreapp3.1\Castle.Windsor.dll
+C:\Users\qkrdm\source\repos\Asp.Net Project\RazorPagesMovie\RazorPagesMovie\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\qkrdm\source\repos\Asp.Net Project\RazorPagesMovie\RazorPagesMovie\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
