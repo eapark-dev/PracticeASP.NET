@@ -1,25 +1,24 @@
 ﻿<Properties StartupConfiguration="{65B8496A-A45E-4B20-A0FB-39EB9C2775CF}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="AspNetCore/Startup.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AspNetCore/Controllers/HomeController.cs">
     <Files>
-      <File FileName="AspNetCore/Startup.cs" Line="64" Column="1" />
-      <File FileName="AspNetCore/Controllers/HomeController.cs" Line="28" Column="55" />
-      <File FileName="AspNetCore/Views/Home/Index.cshtml" Line="9" Column="1" />
-      <File FileName="AspNetCore/Views/Home/Privacy.cshtml" Line="8" Column="1" />
-      <File FileName="AspNetCore/Program.cs" Line="11" Column="2" />
-      <File FileName="AspNetCore/wwwroot/hello.html" Line="11" Column="1" />
+      <File FileName="AspNetCore/Startup.cs" Line="93" Column="48" />
+      <File FileName="AspNetCore/Controllers/HomeController.cs" Line="56" Column="13" />
+      <File FileName="AspNetCore/Models/Models.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="AspNetCore" expanded="True">
             <Node name="AspNetCore" expanded="True">
-              <Node name="Controllers" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="HomeController.cs" selected="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="Home" expanded="True" />
                 <Node name="Shared" expanded="True" />
               </Node>
               <Node name="wwwroot" expanded="True" />
-              <Node name="Startup.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -30,7 +29,10 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/eunapark/PracticeASP.NET/AspNetCore/AspNetCore/Controllers/HomeController.cs" relfile="AspNetCore/Controllers/HomeController.cs" line="48" column="13" />
+      <Breakpoint file="/Users/eunapark/PracticeASP.NET/AspNetCore/AspNetCore/Models/Models.cs" relfile="AspNetCore/Models/Models.cs" line="4" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
