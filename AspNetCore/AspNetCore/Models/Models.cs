@@ -1,9 +1,10 @@
 ﻿using System;
+using System.Collections.Generic;
+
 namespace AspNetCore.Models
 {
-    public class TestModel
+    public class TestViewModel
     {
-        public int Id { get; set; }
-        public string Name { get; set; }
+        public List<string> Names { get; set; }
     }
 }

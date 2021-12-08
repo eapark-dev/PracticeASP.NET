@@ -1,22 +1,23 @@
 ﻿<Properties StartupConfiguration="{65B8496A-A45E-4B20-A0FB-39EB9C2775CF}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="AspNetCore/Controllers/HomeController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AspNetCore/Views/Shared/_Layout.cshtml">
     <Files>
-      <File FileName="AspNetCore/Startup.cs" Line="93" Column="48" />
-      <File FileName="AspNetCore/Controllers/HomeController.cs" Line="56" Column="13" />
-      <File FileName="AspNetCore/Models/Models.cs" />
+      <File FileName="AspNetCore/Controllers/HomeController.cs" Line="7" Column="36" />
+      <File FileName="AspNetCore/Program.cs" Line="20" Column="1" />
+      <File FileName="AspNetCore/Views/Home/Test.cshtml" Line="8" Column="18" />
+      <File FileName="AspNetCore/Views/Shared/_Layout.cshtml" Line="26" Column="30" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="AspNetCore" expanded="True">
             <Node name="AspNetCore" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="HomeController.cs" selected="True" />
-              </Node>
+              <Node name="Controllers" expanded="True" />
               <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="Home" expanded="True" />
-                <Node name="Shared" expanded="True" />
+                <Node name="Shared" expanded="True">
+                  <Node name="_Layout.cshtml" selected="True" />
+                </Node>
               </Node>
               <Node name="wwwroot" expanded="True" />
             </Node>
@@ -25,13 +26,16 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.AspNetCore PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.ItemProperties.AspNetCore PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/eunapark/PracticeASP.NET/AspNetCore/AspNetCore/Controllers/HomeController.cs" relfile="AspNetCore/Controllers/HomeController.cs" line="48" column="13" />
-      <Breakpoint file="/Users/eunapark/PracticeASP.NET/AspNetCore/AspNetCore/Models/Models.cs" relfile="AspNetCore/Models/Models.cs" line="4" column="1" />
+      <Breakpoint file="/Users/eunapark/PracticeASP.NET/AspNetCore/AspNetCore/Models/Models.cs" relfile="AspNetCore/Models/Models.cs" line="6" column="1" />
+      <Breakpoint file="/Users/eunapark/PracticeASP.NET/AspNetCore/AspNetCore/Startup.cs" relfile="AspNetCore/Startup.cs" line="82" column="1" />
+      <Breakpoint file="/Users/eunapark/PracticeASP.NET/AspNetCore/AspNetCore/Startup.cs" relfile="AspNetCore/Startup.cs" line="20" column="1" />
+      <Breakpoint file="/Users/eunapark/PracticeASP.NET/AspNetCore/AspNetCore/Startup.cs" relfile="AspNetCore/Startup.cs" line="25" column="1" />
+      <Breakpoint file="/Users/eunapark/PracticeASP.NET/AspNetCore/AspNetCore/Startup.cs" relfile="AspNetCore/Startup.cs" line="45" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />

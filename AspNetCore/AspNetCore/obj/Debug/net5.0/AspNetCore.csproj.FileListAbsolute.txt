@@ -37,3 +37,4 @@
 /Users/eunapark/PracticeASP.NET/AspNetCore/AspNetCore/obj/Debug/net5.0/AspNetCore.pdb
 /Users/eunapark/PracticeASP.NET/AspNetCore/AspNetCore/obj/Debug/net5.0/AspNetCore.genruntimeconfig.cache
 /Users/eunapark/PracticeASP.NET/AspNetCore/AspNetCore/obj/Debug/net5.0/AspNetCore.csproj.CopyComplete
+/Users/eunapark/PracticeASP.NET/AspNetCore/AspNetCore/obj/Debug/net5.0/Razor/Views/Home/Test.cshtml.g.cs
