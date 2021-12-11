@@ -1,10 +1,9 @@
 ﻿<Properties StartupConfiguration="{65B8496A-A45E-4B20-A0FB-39EB9C2775CF}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="AspNetCore/Views/Shared/_Layout.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AspNetCore/Views/Shared/_ValidationScriptsPartial.cshtml">
     <Files>
-      <File FileName="AspNetCore/Controllers/HomeController.cs" Line="7" Column="36" />
-      <File FileName="AspNetCore/Program.cs" Line="20" Column="1" />
-      <File FileName="AspNetCore/Views/Home/Test.cshtml" Line="8" Column="18" />
-      <File FileName="AspNetCore/Views/Shared/_Layout.cshtml" Line="26" Column="30" />
+      <File FileName="AspNetCore/Controllers/HomeController.cs" Line="24" Column="27" />
+      <File FileName="AspNetCore/Models/Models.cs" Line="14" Column="27" />
+      <File FileName="AspNetCore/Views/Shared/_ValidationScriptsPartial.cshtml" Line="2" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,10 +15,9 @@
               <Node name="Views" expanded="True">
                 <Node name="Home" expanded="True" />
                 <Node name="Shared" expanded="True">
-                  <Node name="_Layout.cshtml" selected="True" />
+                  <Node name="_ValidationScriptsPartial.cshtml" selected="True" />
                 </Node>
               </Node>
-              <Node name="wwwroot" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -31,7 +29,7 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/eunapark/PracticeASP.NET/AspNetCore/AspNetCore/Models/Models.cs" relfile="AspNetCore/Models/Models.cs" line="6" column="1" />
+      <Breakpoint file="/Users/eunapark/PracticeASP.NET/AspNetCore/AspNetCore/Models/Models.cs" relfile="AspNetCore/Models/Models.cs" line="7" column="1" />
       <Breakpoint file="/Users/eunapark/PracticeASP.NET/AspNetCore/AspNetCore/Startup.cs" relfile="AspNetCore/Startup.cs" line="82" column="1" />
       <Breakpoint file="/Users/eunapark/PracticeASP.NET/AspNetCore/AspNetCore/Startup.cs" relfile="AspNetCore/Startup.cs" line="20" column="1" />
       <Breakpoint file="/Users/eunapark/PracticeASP.NET/AspNetCore/AspNetCore/Startup.cs" relfile="AspNetCore/Startup.cs" line="25" column="1" />

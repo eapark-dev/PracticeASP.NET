@@ -19,14 +19,17 @@ namespace AspNetCore.Controllers
             _logger = logger;
         }
 
+        public IActionResult BuyItem()
+        {
+            return View();
+        }
+
         public IActionResult Test()
         {
             TestViewModel testViewModel = new TestViewModel()
             {
-                Names = new List<string>
-                {
-                    "Faker", "Deft", "Dora"
-                }
+                Id = 1005,
+                Count = 2
             };
             return View(testViewModel); 
         }

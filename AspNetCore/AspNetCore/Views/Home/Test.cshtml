@@ -3,32 +3,38 @@
 @*c# 코드는 '' 공백에 의해서 끝난다. *@
 @*연이어서 c#코드로 작성하고 싶을 때 코드영역이라는 의미로 @{}로 작성*@
 
+@{
+    ViewData["Title"] = "Test Buy Item";
+}
+
 @model TestViewModel
 
-@section Scripts{
-    <h1>I am Scripts Section !</h1>
+@* PartialView 사용*@
+@section Scripts {
+    @Html.Partial("_ValidationScriptsPartial");
 }
 
 <h1>Hello Razor Template</h1>
-<h2>@DateTime.Now This is Not C#</h2>
-<h3>@(1 + 1)</h3>
 
-@if (Model.Names.Count < 5)
-{
-    <h1>데이터가 많지 않음</h1>
-}
-else
-{
-    <h1>데이터가 많음</h1>
-}
+@*input의 asp-for는 내용 출력뿐 아니, input의 type도 결정하는데 도움 준다*@
+@*number, text, hidden, password, tel, email, url, data...*@
+@* property가 어떤 형식인, [EmailAddress] [Url]과 같은 Attribute기 붙었는 지 *@
+<form asp-action="BuyItem" asp-controller="Home" asp-route-id="@Model.Id" asp-route-count="@Model.Count"
+    >
+    <div class="form-group">
+        <label asp-for="Id"></label>
+        <input class="form-control" asp-for="Id"/>
+        <span asp-validation-for="Id"></span>
+    </div>
 
-@foreach (var item in Model.Names)
-{
-    <h1>@item</h1>
-}
-<ul>
-    @for (int i = 0; i < Model.Names.Count; i++)
-    {
-        <li>@Model.Names[i]</li>
-    }
-</ul>
+    <div class="form-group">
+        <label asp-for="Count"></label>
+        <input asp-for="Count" class="form-control"/>
+        <span asp-validation-for="Count"></span>
+    </div>
+
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+    <div asp-validation-summary="All"></div>
+</form>
+
