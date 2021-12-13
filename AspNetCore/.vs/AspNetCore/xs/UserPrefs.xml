@@ -1,9 +1,11 @@
 ﻿<Properties StartupConfiguration="{65B8496A-A45E-4B20-A0FB-39EB9C2775CF}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="AspNetCore/Views/Shared/_ValidationScriptsPartial.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AspNetCore/Views/Home/Privacy.cshtml">
     <Files>
-      <File FileName="AspNetCore/Controllers/HomeController.cs" Line="24" Column="27" />
-      <File FileName="AspNetCore/Models/Models.cs" Line="14" Column="27" />
-      <File FileName="AspNetCore/Views/Shared/_ValidationScriptsPartial.cshtml" Line="2" Column="1" />
+      <File FileName="AspNetCore/Controllers/HomeController.cs" Line="27" Column="15" />
+      <File FileName="AspNetCore/Models/Models.cs" />
+      <File FileName="AspNetCore/Views/Home/Test.cshtml" Line="1" Column="1" NotebookId="1" />
+      <File FileName="AspNetCore/Startup.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="AspNetCore/Views/Home/Privacy.cshtml" Line="1" Column="1" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,10 +15,10 @@
               <Node name="Controllers" expanded="True" />
               <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="Home" expanded="True" />
-                <Node name="Shared" expanded="True">
-                  <Node name="_ValidationScriptsPartial.cshtml" selected="True" />
+                <Node name="Home" expanded="True">
+                  <Node name="Privacy.cshtml" selected="True" />
                 </Node>
+                <Node name="Shared" expanded="True" />
               </Node>
             </Node>
           </Node>

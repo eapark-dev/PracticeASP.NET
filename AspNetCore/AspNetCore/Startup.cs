@@ -109,6 +109,11 @@ namespace AspNetCore
                 pattern: "{*joker}",
                 defaults: new { controller = "Home", action = "Error" });
 
+
+                //app.UseEndpoints(endpoints =>
+                //{
+                //    endpoints.MapControllers();
+                //});
             });
 
         }

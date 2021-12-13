@@ -9,47 +9,52 @@ using AspNetCore.Models;
 
 namespace AspNetCore.Controllers
 {
-  
+
+    // Dependency Injection (DI 종속성 주입)
+    // 디자인 패턴에서 코드간 종속성을 줄이는 것을 중요하게 생각
+    public class FileLogSettings
+    {
+        string _filename;
+        public FileLogSettings(string filename)
+        {
+            _filename = filename;
+        }
+    }
+    public class FIleLogger
+    {
+        FileLogSettings _settings;
+        public FIleLogger(FileLogSettings settings)
+        {
+            _settings = settings;
+        }
+
+        public void Log(string log)
+        {
+            Console.WriteLine($"Log Ok {log}");
+        }
+    }
+
+    [Route("Home")]
     public class HomeController : Controller //Helper함수를 사용하려면 Controller를 참조해야함
     {
-        private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
-        {
-            _logger = logger;
-        }
-
-        public IActionResult BuyItem()
-        {
-            return View();
-        }
-
-        public IActionResult Test()
-        {
-            TestViewModel testViewModel = new TestViewModel()
-            {
-                Id = 1005,
-                Count = 2
-            };
-            return View(testViewModel); 
-        }
-
+        
+        [Route("Index")]
         public IActionResult Index()
         {
-            //string url = Url.Action("Privacy", "Home");
-            //string url = Url.RouteUrl("test", new { test = 123 });
-            return RedirectToAction("Privacy");
-            
-            //return View(); //ViewResult를 반환하는 값 (Helper함수)
+            FIleLogger logger = new FIleLogger(new FileLogSettings("log.txt"));
+            logger.Log("Log Test");
+
+            return Ok();
         }
 
+        [Route("Privacy")]
         public IActionResult Privacy()
         {
             ViewData["Message"] = "Data From Privacy";
             return View();
         }
 
-        //[Route("Hello")]
+        [Route("Error")]
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
