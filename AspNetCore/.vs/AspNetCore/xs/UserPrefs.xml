@@ -1,11 +1,13 @@
 ﻿<Properties StartupConfiguration="{65B8496A-A45E-4B20-A0FB-39EB9C2775CF}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="AspNetCore/Views/Home/Privacy.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AspNetCore/Startup.cs">
     <Files>
-      <File FileName="AspNetCore/Controllers/HomeController.cs" Line="27" Column="15" />
+      <File FileName="AspNetCore/Controllers/HomeController.cs" Line="47" Column="1" />
       <File FileName="AspNetCore/Models/Models.cs" />
-      <File FileName="AspNetCore/Views/Home/Test.cshtml" Line="1" Column="1" NotebookId="1" />
-      <File FileName="AspNetCore/Startup.cs" Line="1" Column="1" NotebookId="1" />
-      <File FileName="AspNetCore/Views/Home/Privacy.cshtml" Line="1" Column="1" NotebookId="1" />
+      <File FileName="AspNetCore/Views/Home/Test.cshtml" Line="14" Column="7" />
+      <File FileName="AspNetCore/Startup.cs" Line="126" Column="1" NotebookId="1" />
+      <File FileName="AspNetCore/Views/Home/Privacy.cshtml" NotebookId="1" />
+      <File FileName="AspNetCore/Views/Home/Index.cshtml" NotebookId="1" />
+      <File FileName="AspNetCore/Program.cs" Line="20" Column="1" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,13 +15,10 @@
           <Node name="AspNetCore" expanded="True">
             <Node name="AspNetCore" expanded="True">
               <Node name="Controllers" expanded="True" />
-              <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="Home" expanded="True">
-                  <Node name="Privacy.cshtml" selected="True" />
-                </Node>
-                <Node name="Shared" expanded="True" />
+                <Node name="Home" expanded="True" />
               </Node>
+              <Node name="Startup.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -32,10 +31,10 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/eunapark/PracticeASP.NET/AspNetCore/AspNetCore/Models/Models.cs" relfile="AspNetCore/Models/Models.cs" line="7" column="1" />
-      <Breakpoint file="/Users/eunapark/PracticeASP.NET/AspNetCore/AspNetCore/Startup.cs" relfile="AspNetCore/Startup.cs" line="82" column="1" />
-      <Breakpoint file="/Users/eunapark/PracticeASP.NET/AspNetCore/AspNetCore/Startup.cs" relfile="AspNetCore/Startup.cs" line="20" column="1" />
-      <Breakpoint file="/Users/eunapark/PracticeASP.NET/AspNetCore/AspNetCore/Startup.cs" relfile="AspNetCore/Startup.cs" line="25" column="1" />
-      <Breakpoint file="/Users/eunapark/PracticeASP.NET/AspNetCore/AspNetCore/Startup.cs" relfile="AspNetCore/Startup.cs" line="45" column="1" />
+      <Breakpoint file="/Users/eunapark/PracticeASP.NET/AspNetCore/AspNetCore/Startup.cs" relfile="AspNetCore/Startup.cs" line="89" column="1" />
+      <Breakpoint file="/Users/eunapark/PracticeASP.NET/AspNetCore/AspNetCore/Startup.cs" relfile="AspNetCore/Startup.cs" line="21" column="1" />
+      <Breakpoint file="/Users/eunapark/PracticeASP.NET/AspNetCore/AspNetCore/Startup.cs" relfile="AspNetCore/Startup.cs" line="28" column="1" />
+      <Breakpoint file="/Users/eunapark/PracticeASP.NET/AspNetCore/AspNetCore/Controllers/HomeController.cs" relfile="AspNetCore/Controllers/HomeController.cs" line="76" column="9" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />

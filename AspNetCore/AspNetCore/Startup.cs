@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AspNetCore.Controllers;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -26,6 +27,12 @@ namespace AspNetCore
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+
+            services.AddSingleton<IBaseLogger, FIleLogger>();
+
+            services.AddSingleton(new FileLogSettings("log.txt"));
+            services.AddSingleton<IBaseLogger, DbLogger> ();
+           
             // DI 서비스란 ? SRP (Single Responsiblility Principle)
             // ex) 랭킹 관련 기능이 필요하면 -> 랭킹 서비스
         }

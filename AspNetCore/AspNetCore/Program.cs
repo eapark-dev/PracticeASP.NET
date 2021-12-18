@@ -34,7 +34,8 @@ namespace AspNetCore
             .ConfigureWebHostDefaults(webBuilder =>
             {
                 // 2) Startup 클래스 지정
-            webBuilder.UseStartup<Startup>();
+                webBuilder.UseStartup<Startup>();
+                webBuilder.UseDefaultServiceProvider(opt => opt.ValidateScopes = true);
             });
         }
     }
