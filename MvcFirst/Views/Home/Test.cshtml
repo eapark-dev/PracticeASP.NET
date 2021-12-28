@@ -1,0 +1,25 @@
+﻿@model List<TestModel>
+@{
+    var x = ViewBag.x;
+}
+<div>
+    테스트 입니다.
+</div>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>X</th>
+            <th>Y</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td> @item.X</td>
+            <td>@item.Y</td>
+        </tr>
+        }
+    </tbody>
+</table>

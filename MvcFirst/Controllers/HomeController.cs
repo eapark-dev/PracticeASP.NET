@@ -33,5 +33,20 @@ namespace MvcFirst.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+        public IActionResult Test(string x, string y)
+        {
+            ViewData["x"] = x;
+            ViewBag.y = y;
+
+            List<TestModel> list = new List<TestModel>();
+            list.Add(new TestModel() { X = 1, Y = "a" });
+            list.Add(new TestModel() { X = 2, Y = "b" });
+            list.Add(new TestModel() { X = 3, Y = "c" });
+            list.Add(new TestModel() { X = 4, Y = "d" });
+
+            return View(list);
+            //return Json(model);
+        }
     }
 }

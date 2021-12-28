@@ -16,8 +16,6 @@
 /Users/eunapark/PracticeASP.NET/MvcFirst/obj/Debug/netcoreapp3.1/MvcFirst.RazorAssemblyInfo.cache
 /Users/eunapark/PracticeASP.NET/MvcFirst/obj/Debug/netcoreapp3.1/MvcFirst.RazorAssemblyInfo.cs
 /Users/eunapark/PracticeASP.NET/MvcFirst/obj/Debug/netcoreapp3.1/staticwebassets/MvcFirst.StaticWebAssets.Manifest.cache
-/Users/eunapark/PracticeASP.NET/MvcFirst/obj/Debug/netcoreapp3.1/staticwebassets/MvcFirst.StaticWebAssets.xml
-/Users/eunapark/PracticeASP.NET/MvcFirst/obj/Debug/netcoreapp3.1/scopedcss/bundle/MvcFirst.styles.css
 /Users/eunapark/PracticeASP.NET/MvcFirst/obj/Debug/netcoreapp3.1/MvcFirst.TagHelpers.input.cache
 /Users/eunapark/PracticeASP.NET/MvcFirst/obj/Debug/netcoreapp3.1/MvcFirst.TagHelpers.output.cache
 /Users/eunapark/PracticeASP.NET/MvcFirst/obj/Debug/netcoreapp3.1/MvcFirst.RazorCoreGenerate.cache
@@ -35,3 +33,4 @@
 /Users/eunapark/PracticeASP.NET/MvcFirst/obj/Debug/netcoreapp3.1/MvcFirst.pdb
 /Users/eunapark/PracticeASP.NET/MvcFirst/obj/Debug/netcoreapp3.1/MvcFirst.genruntimeconfig.cache
 /Users/eunapark/PracticeASP.NET/MvcFirst/obj/Debug/netcoreapp3.1/MvcFirst.csproj.CopyComplete
+/Users/eunapark/PracticeASP.NET/MvcFirst/obj/Debug/netcoreapp3.1/Razor/Views/Home/Test.cshtml.g.cs
