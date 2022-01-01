@@ -1,11 +1,6 @@
 ﻿<Properties StartupConfiguration="{E97168A7-6359-44A7-83F4-7407906A60F5}|Default">
   <MonoDevelop.Ide.ItemProperties.MvcFirst PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Views/Home/Test.cshtml">
-    <Files>
-      <File FileName="Models/TestModel.cs" Line="7" Column="24" NotebookId="1" />
-      <File FileName="Views/Home/Test.cshtml" Line="20" Column="30" NotebookId="1" />
-      <File FileName="Views/Home/Index.cshtml" Line="10" Column="43" NotebookId="1" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
@@ -15,15 +10,15 @@
               <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="Home" expanded="True">
-                  <Node name="Test.cshtml" selected="True" />
+                  <Node name="Index.cshtml" selected="True" />
                 </Node>
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="lib" expanded="True" />
               </Node>
             </Node>
           </Node>
         </State>
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
