@@ -1,0 +1,64 @@
+﻿@model PracticeNotice.Models.Notice
+
+@{
+    ViewData["Title"] = "상세보기";
+}
+
+<div>
+    <h1>게시판</h1>
+    <br />
+    <h4>게시글 상세보기</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            이름
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt class="col-sm-2">
+            등록일
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.RegDate)
+        </dd>
+        <dt class="col-sm-2">
+            제목
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Subject)
+        </dd>
+        <dt class="col-sm-2">
+            내용
+        </dt>
+        <dd class="col-sm-10">
+            <textarea disabled rows="10" class="col-lg-7">@Html.DisplayFor(model => model.Content)</textarea>
+        </dd>
+        @if (@Model.FileName != "")
+        {
+        <dt class="col-sm-2">
+            첨부파일
+        </dt>
+        <dd class="col-sm-10">
+            <a href="/file/@Model.FileName" target="_blank"><img src="/file/@Html.DisplayFor(model => model.FileName)" width=200 /></a>
+        </dd>
+        }
+    </dl>
+</div>
+<div style="float:right; display:flex;">
+    <a class="btn btn btn-primary btn-sm" asp-action="Edit" asp-route-id="@Model?.Idx">수정</a> 
+    <form asp-action="Delete" method="post" name="deleteForm">
+        <input type="hidden" asp-for="Idx" name="id" />
+        <input type="button" class="btn btn btn-light btn-sm" id="deleteBtn" value="삭제" />
+    </form>
+    <a class="btn btn btn-dark btn-sm" asp-action="Index">목록</a>
+</div>
+<script>
+    const del = document.getElementById("deleteBtn");
+    //삭제 이벤트
+    del.addEventListener('click', event => {
+        if(window.confirm("해당 게시글을 삭제하시겠습니까?")){
+            document.forms["deleteForm"].submit();
+        };
+    });
+</script>
