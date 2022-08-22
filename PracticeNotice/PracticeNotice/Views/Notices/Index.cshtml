@@ -1,23 +1,24 @@
-﻿@model IEnumerable<PracticeNotice.Models.Notice>
-
+﻿@addTagHelper*, Microsoft.AspNetCore.Mvc.TagHelpers
+@using PracticeNotice.Models
+@model Customer
 @{
     ViewData["Title"] = "목록";
 
 }
 
-<h1>게시판</h1>
 <form asp-action="Index" asp-controller="Notices" method="get">
-        <div class="col-lg-5" style="float:right;">
-            <div class="input-group">
-            <select name="SearchType" class="custom-select" id="SearchType">
+    <div class="col-lg-5" style="float:right;">
+        <div class="input-group">
+            <input type="hidden" id="hfCurrentPageIndex" name="currentPageIndex" value="1" />
+            <select name="searchType" class="custom-select" id="searchType">
                 <option value="All">전체</option>
                 <option value="Name">이름</option>
                 <option value="Subject">제목</option>
             </select>
-            <input type="text" name="SearchString" class="form-control" value="@ViewBag.SearchString" />
+            <input type="text" name="searchString" class="form-control" value="@ViewBag.SearchString" />
             <input type="submit" value="검색" class="btn btn-sm btn-light" />
-            </div>
         </div>
+    </div>
 </form>
 <table class="table mt-5">
     <thead>
@@ -40,10 +41,10 @@
         </tr>
     </thead>
     <tbody>
-        @if (Model.Count() > 0)
+        @if (Model.Notices.Count() > 0)
         {
-            int cnt = Model.Count();
-            @foreach (var item in Model)
+            int cnt = Model.Notices.Count();
+            @foreach (Notice item in Model.Notices)
             {
                 <tr>
                     <td>@cnt</td>
@@ -74,12 +75,29 @@
         }
     </tbody>
 </table>
+<table>
+    <tr>
+        @for (int i = 1; i <= Model.PageCount; i++)
+        {
+            <td>
+                @if (i != Model.CurrentPageIndex)
+                {
+                    <a href="javascript:PagerClick(@i);">@i</a>
+                }
+                else
+                {
+                    <span>@i</span>
+                }
+            </td>
+        }
+    </tr>
+</table>
 <br />
 <p style="float:right">
     <a asp-action="Create" class="btn btn-dark btn-sm">등록</a>
 </p>
 <script>
-    const selectName = document.getElementById("SearchType");
+    const selectName = document.getElementById("searchType");
     const len = selectName.options.length;
 
     for(let i=0; i<len; i++){
@@ -87,5 +105,10 @@
         {
             selectName.options[i].selected = true;
         }
+    }
+
+    function PagerClick(index) {
+        document.getElementById("hfCurrentPageIndex").value = index;
+        document.forms[0].submit();
     }
 </script>

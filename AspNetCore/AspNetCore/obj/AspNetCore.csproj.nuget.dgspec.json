@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/Users/eunapark/PracticeASP.NET/AspNetCore/AspNetCore/AspNetCore.csproj": {}
+    "C:\\Users\\EAPark\\parkeuna\\개인\\PracticeASP.NET\\AspNetCore\\AspNetCore\\AspNetCore.csproj": {}
   },
   "projects": {
-    "/Users/eunapark/PracticeASP.NET/AspNetCore/AspNetCore/AspNetCore.csproj": {
+    "C:\\Users\\EAPark\\parkeuna\\개인\\PracticeASP.NET\\AspNetCore\\AspNetCore\\AspNetCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/eunapark/PracticeASP.NET/AspNetCore/AspNetCore/AspNetCore.csproj",
+        "projectUniqueName": "C:\\Users\\EAPark\\parkeuna\\개인\\PracticeASP.NET\\AspNetCore\\AspNetCore\\AspNetCore.csproj",
         "projectName": "AspNetCore",
-        "projectPath": "/Users/eunapark/PracticeASP.NET/AspNetCore/AspNetCore/AspNetCore.csproj",
-        "packagesPath": "/Users/eunapark/.nuget/packages/",
-        "outputPath": "/Users/eunapark/PracticeASP.NET/AspNetCore/AspNetCore/obj/",
+        "projectPath": "C:\\Users\\EAPark\\parkeuna\\개인\\PracticeASP.NET\\AspNetCore\\AspNetCore\\AspNetCore.csproj",
+        "packagesPath": "C:\\Users\\EAPark\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\EAPark\\parkeuna\\개인\\PracticeASP.NET\\AspNetCore\\AspNetCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/eunapark/.config/NuGet/NuGet.Config"
+          "C:\\Users\\EAPark\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -47,6 +49,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.13, 5.0.13]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -55,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.402/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

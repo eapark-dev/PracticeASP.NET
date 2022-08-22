@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "0q4GSbshDEnh8dtbTsE9VsxI/43UbRtgn6y1VJHnms3VRcQjkhLUqLqzUv/whRV18ZMx2id/DdPn2k2d8zsb3w==",
+  "dgSpecHash": "QSjqL8V08568F2A7egy3rtSYaNfY1WzLEbfcVbdmLjUZ42RqBfrp2WyTUHG5BwmG3x8p0siS+aaW1fh4NOsvVQ==",
   "success": true,
-  "projectFilePath": "/Users/eunapark/PracticeASP.NET/AspNetCore/AspNetCore/AspNetCore.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\EAPark\\parkeuna\\개인\\PracticeASP.NET\\AspNetCore\\AspNetCore\\AspNetCore.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\EAPark\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.13\\microsoft.netcore.app.host.win-x64.5.0.13.nupkg.sha512",
+    "C:\\Users\\EAPark\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\EAPark\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\EAPark\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

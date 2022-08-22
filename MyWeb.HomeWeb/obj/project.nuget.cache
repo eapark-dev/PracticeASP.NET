@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "zbUE+IiIxZZyINdhopPMrm2TvhLAbXg9/AGQUf6hXCrPotS9Fgi8YuGYRDN8eOQjMQwZpOjE0gJc2FDvjJVAcQ==",
+  "dgSpecHash": "pdtOjRHtV9jpGl0pPQHTbfdv6r44DVqtjYMUEPptChd2AN4n1jRBpzOWJmWNPdmOiMLZjyNGNGaO9GoYEj0Odg==",
   "success": true,
-  "projectFilePath": "/Users/eunapark/PracticeASP.NET/MyWeb.HomeWeb/MyWeb.HomeWeb.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\EAPark\\parkeuna\\개인\\PracticeASP.NET\\MyWeb.HomeWeb\\MyWeb.HomeWeb.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\EAPark\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.22\\microsoft.netcore.app.host.win-x64.3.1.22.nupkg.sha512",
+    "C:\\Users\\EAPark\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\EAPark\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\EAPark\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
   "logs": []
 }

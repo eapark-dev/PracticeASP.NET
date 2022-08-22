@@ -13,44 +13,55 @@ namespace PracticeNotice.Controllers
         public NoticesController(PracticeNoticeContext context, IWebHostEnvironment _environment)
         {
             _context = context;
-            Environment  = _environment;
+            Environment = _environment;
         }
 
+        //public async Task<IActionResult> Index()
+        //{
+        //    return View(this.GetCustomers(1,null,null));
+        //}
+
         // GET: Notices
-        public async Task<IActionResult> Index(string SearchType, string SearchString, int? page)
+        public async Task<IActionResult> Index(int currentPageIndex, string searchType, string searchString)
         {
-            ViewBag.SearchType = SearchType;
-            ViewBag.SearchString = SearchString;
+            ViewBag.searchType = searchType;
+            ViewBag.searchString = searchString;
+
+            currentPageIndex = currentPageIndex == 0 ? 1 : currentPageIndex;
+
+            return View(this.GetCustomers(currentPageIndex, searchType, searchString));
+        }
+
+        private Customer GetCustomers(int currentPage, string searchType, string searchString)
+        {
+            int maxRows = 2;
 
             var notices = from n in _context.Notice
                           select n;
 
-            if (!string.IsNullOrEmpty(SearchString))
+            Customer customer = new Customer();
+            if (!string.IsNullOrEmpty(searchString))
             {
-                switch (SearchType)
+                switch (searchType)
                 {
                     case "Name":
-                        notices = notices.Where(s => s.Name!.Contains(SearchString));
+                        notices = notices.Where(s => s.Name!.Contains(searchString));
                         break;
                     case "Subject":
-                        notices = notices.Where(s => s.Subject!.Contains(SearchString));
+                        notices = notices.Where(s => s.Subject!.Contains(searchString));
                         break;
                     default:
-                        notices = notices.Where(s => s.Name!.Contains(SearchString) || s.Subject.Contains(SearchString));
+                        notices = notices.Where(s => s.Name!.Contains(searchString) || s.Subject.Contains(searchString));
                         break;
                 }
             }
-            else {
-                page = 1;
-            }
-            //order by 
-            notices = notices.OrderByDescending(s => s.RegDate);
+            customer.Notices = notices.OrderByDescending(s => s.RegDate).Skip((currentPage - 1) * maxRows).Take(maxRows).ToList();
 
-            //int pageSize = 3;
-            int pageSize = notices.Count();
-            int pageNumber = (page ?? 1);
+            double pageCount = (double)((decimal)notices.Count() / Convert.ToDecimal(maxRows));
+            customer.PageCount = (int)Math.Ceiling(pageCount);
 
-            return View(await notices.ToListAsync());
+            customer.CurrentPageIndex = currentPage;
+            return customer;
         }
 
         // GET: Notices/Details/5
@@ -165,7 +176,7 @@ namespace PracticeNotice.Controllers
 
                             //이전 파일 삭제
                             if (beforeFileName != "")
-                            { 
+                            {
                                 string beforePath = Path.Combine(this.Environment.WebRootPath, "file", beforeFileName);
                                 System.IO.File.Delete(beforePath);
                             }
