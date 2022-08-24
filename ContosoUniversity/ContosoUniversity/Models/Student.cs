@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace ContosoUniversity.Models
+﻿namespace ContosoUniversity.Models
 {
     public class Student
     {
@@ -11,5 +8,6 @@ namespace ContosoUniversity.Models
         public DateTime EnrollmentDate { get; set; }
 
         public ICollection<Enrollment> Enrollments { get; set; }
+        public string Secret { get; set; }
     }
 }

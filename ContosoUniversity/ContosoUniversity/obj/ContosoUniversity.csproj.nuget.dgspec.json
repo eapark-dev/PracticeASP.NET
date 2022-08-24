@@ -1,30 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "/Users/eunapark/PracticeASP.NET/ContosoUniversity/ContosoUniversity/ContosoUniversity.csproj": {}
+    "C:\\Users\\EAPark\\parkeuna\\개인\\PracticeCore\\ContosoUniversity\\ContosoUniversity\\ContosoUniversity.csproj": {}
   },
   "projects": {
-    "/Users/eunapark/PracticeASP.NET/ContosoUniversity/ContosoUniversity/ContosoUniversity.csproj": {
+    "C:\\Users\\EAPark\\parkeuna\\개인\\PracticeCore\\ContosoUniversity\\ContosoUniversity\\ContosoUniversity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/eunapark/PracticeASP.NET/ContosoUniversity/ContosoUniversity/ContosoUniversity.csproj",
+        "projectUniqueName": "C:\\Users\\EAPark\\parkeuna\\개인\\PracticeCore\\ContosoUniversity\\ContosoUniversity\\ContosoUniversity.csproj",
         "projectName": "ContosoUniversity",
-        "projectPath": "/Users/eunapark/PracticeASP.NET/ContosoUniversity/ContosoUniversity/ContosoUniversity.csproj",
-        "packagesPath": "/Users/eunapark/.nuget/packages/",
-        "outputPath": "/Users/eunapark/PracticeASP.NET/ContosoUniversity/ContosoUniversity/obj/",
+        "projectPath": "C:\\Users\\EAPark\\parkeuna\\개인\\PracticeCore\\ContosoUniversity\\ContosoUniversity\\ContosoUniversity.csproj",
+        "packagesPath": "C:\\Users\\EAPark\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\EAPark\\parkeuna\\개인\\PracticeCore\\ContosoUniversity\\ContosoUniversity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/eunapark/.config/NuGet/NuGet.Config"
+          "C:\\Users\\EAPark\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -35,30 +37,30 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.12, )"
+              "version": "[6.0.8, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.12, )"
-            },
-            "Microsoft.EntityFrameworkCore.Sqlite": {
-              "target": "Package",
-              "version": "[5.0.12, )"
+              "version": "[6.0.8, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.12, )"
+              "version": "[6.0.8, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[5.0.2, )"
+              "version": "[6.0.8, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
             }
           },
           "imports": [
@@ -79,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.402/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
