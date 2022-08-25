@@ -10143,11 +10143,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\EAPark\\parkeuna\\PracticeNotice\\PracticeNotice\\PracticeNotice.csproj",
+      "projectUniqueName": "C:\\Users\\EAPark\\parkeuna\\개인\\PracticeASP.NET\\PracticeNotice\\PracticeNotice\\PracticeNotice.csproj",
       "projectName": "PracticeNotice",
-      "projectPath": "C:\\Users\\EAPark\\parkeuna\\PracticeNotice\\PracticeNotice\\PracticeNotice.csproj",
+      "projectPath": "C:\\Users\\EAPark\\parkeuna\\개인\\PracticeASP.NET\\PracticeNotice\\PracticeNotice\\PracticeNotice.csproj",
       "packagesPath": "C:\\Users\\EAPark\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\EAPark\\parkeuna\\PracticeNotice\\PracticeNotice\\obj\\",
+      "outputPath": "C:\\Users\\EAPark\\parkeuna\\개인\\PracticeASP.NET\\PracticeNotice\\PracticeNotice\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\EAPark\\AppData\\Roaming\\NuGet\\NuGet.Config",

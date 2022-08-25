@@ -8,57 +8,57 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PracticeNotice
 build_property.RootNamespace = PracticeNotice
-build_property.ProjectDir = C:\Users\EAPark\parkeuna\PracticeNotice\PracticeNotice\
+build_property.ProjectDir = C:\Users\EAPark\parkeuna\개인\PracticeASP.NET\PracticeNotice\PracticeNotice\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\EAPark\parkeuna\PracticeNotice\PracticeNotice
+build_property.MSBuildProjectDirectory = C:\Users\EAPark\parkeuna\개인\PracticeASP.NET\PracticeNotice\PracticeNotice
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/EAPark/parkeuna/PracticeNotice/PracticeNotice/Views/Home/Index.cshtml]
+[C:/Users/EAPark/parkeuna/개인/PracticeASP.NET/PracticeNotice/PracticeNotice/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/EAPark/parkeuna/PracticeNotice/PracticeNotice/Views/Home/Privacy.cshtml]
+[C:/Users/EAPark/parkeuna/개인/PracticeASP.NET/PracticeNotice/PracticeNotice/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/EAPark/parkeuna/PracticeNotice/PracticeNotice/Views/Notices/Create.cshtml]
+[C:/Users/EAPark/parkeuna/개인/PracticeASP.NET/PracticeNotice/PracticeNotice/Views/Notices/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWNlc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/EAPark/parkeuna/PracticeNotice/PracticeNotice/Views/Notices/Delete.cshtml]
+[C:/Users/EAPark/parkeuna/개인/PracticeASP.NET/PracticeNotice/PracticeNotice/Views/Notices/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWNlc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/EAPark/parkeuna/PracticeNotice/PracticeNotice/Views/Notices/Details.cshtml]
+[C:/Users/EAPark/parkeuna/개인/PracticeASP.NET/PracticeNotice/PracticeNotice/Views/Notices/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWNlc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/EAPark/parkeuna/PracticeNotice/PracticeNotice/Views/Notices/Edit.cshtml]
+[C:/Users/EAPark/parkeuna/개인/PracticeASP.NET/PracticeNotice/PracticeNotice/Views/Notices/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWNlc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/EAPark/parkeuna/PracticeNotice/PracticeNotice/Views/Notices/Index.cshtml]
+[C:/Users/EAPark/parkeuna/개인/PracticeASP.NET/PracticeNotice/PracticeNotice/Views/Notices/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWNlc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/EAPark/parkeuna/PracticeNotice/PracticeNotice/Views/Shared/Error.cshtml]
+[C:/Users/EAPark/parkeuna/개인/PracticeASP.NET/PracticeNotice/PracticeNotice/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/EAPark/parkeuna/PracticeNotice/PracticeNotice/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/EAPark/parkeuna/개인/PracticeASP.NET/PracticeNotice/PracticeNotice/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/EAPark/parkeuna/PracticeNotice/PracticeNotice/Views/_ViewImports.cshtml]
+[C:/Users/EAPark/parkeuna/개인/PracticeASP.NET/PracticeNotice/PracticeNotice/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/EAPark/parkeuna/PracticeNotice/PracticeNotice/Views/_ViewStart.cshtml]
+[C:/Users/EAPark/parkeuna/개인/PracticeASP.NET/PracticeNotice/PracticeNotice/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/EAPark/parkeuna/PracticeNotice/PracticeNotice/Views/Shared/_Layout.cshtml]
+[C:/Users/EAPark/parkeuna/개인/PracticeASP.NET/PracticeNotice/PracticeNotice/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-sw53rqou4k
