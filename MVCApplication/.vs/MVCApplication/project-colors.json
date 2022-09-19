@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "c10a2fff-5f36-41fc-af6f-fd027bf62195": {
+      "ProjectGuid": "c10a2fff-5f36-41fc-af6f-fd027bf62195",
+      "DisplayName": "MVCApplication",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
